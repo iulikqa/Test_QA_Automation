@@ -10,7 +10,7 @@ public class Homework_JAVA_Lesson_1 {
         /**а)Посчитать сколько букв в этой фразе**/
         System.out.println(emotion.length());
 
-        /*б)Вывести букву под индексом 4**/
+        /**б)Вывести букву под индексом 4**/
         char c = emotion.charAt(4);
         System.out.println(c);
 
