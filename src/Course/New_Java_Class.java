@@ -2,15 +2,16 @@ package Course;
 
 public class New_Java_Class {
     public static void main(String[] args) {
-        System.out.println(Math.min(88, 15));/**afiseaza numarul minimal. Accepta doar 2 numere**/
-        System.out.println(Math.max(88, 15));/**afiseaza numarul maximal. Accepta doar 2 numere**/
-        System.out.println(Math.sqrt(25)); /**sqrt socoate radicalul din numarul indicat**/
-        System.out.println(Math.abs(88)); /**modulul absolut al numarului indicat in paranteze**/
-        System.out.println(Math.pow(4, 2)); /**inmulteste primul numar indicat (4) la puterea numarului indicat al doilea (2) >> adica 4 la puterea a 2**/
-        System.out.println(Math.random());/**genereaza un numar intimplator in diapazonul de la 0 la 1**/
+        System.out.println(Math.min(88, 15));/*afiseaza numarul minimal. Accepta doar 2 numere*/
+        System.out.println(Math.max(88, 15));/*afiseaza numarul maximal. Accepta doar 2 numere*/
+        System.out.println(Math.sqrt(25)); /*sqrt socoate radicalul din numarul indicat*/
+        System.out.println(Math.abs(88)); /*modulul absolut al numarului indicat in paranteze*/
+        System.out.println(Math.pow(4, 2)); /*inmulteste primul numar indicat (4) la puterea numarului indicat al
+        doilea (2) >> adica 4 la puterea a 2*/
+        System.out.println(Math.random());/*genereaza un numar intimplator in diapazonul de la 0 la 1*/
         System.out.println(Math.random() * 100);
 
-        /**-------------------------------------------------------------------**/
+        /*-------------------------------------------------------------------*/
 
         int age = 19;
         if (age >= 18) {
@@ -18,7 +19,7 @@ public class New_Java_Class {
         } else {
             System.out.println("Asteapta 18");
         }
-        /**-------------------------------------------------------------------**/
+        /*-------------------------------------------------------------------*/
 
         String position = "QA Automation";
         if (position.equals("QA Automation")) {
@@ -31,7 +32,7 @@ public class New_Java_Class {
             System.out.println("Noi nu avem asa pozitie");
         }
 
-        /**-------------------------------------------------------------------**/
+        /*-------------------------------------------------------------------*/
         String company = "MAIB";
         switch (company) {
             case "MAIB":
@@ -47,7 +48,7 @@ public class New_Java_Class {
                 System.out.println("This company not existed");
         }
 
-        /**-------------------------------------------------------------------**/
+        /*-------------------------------------------------------------------*/
         String day = "Sambata";
         switch (day) {
             case "Luni":
@@ -74,7 +75,7 @@ public class New_Java_Class {
             default:
                 System.out.println("This day not existed");
         }
-        /**-------------------------------------------------------------------**/
+        /*-------------------------------------------------------------------*/
 
         String day2 = "Vineri";
         switch (day2) {
@@ -90,14 +91,14 @@ public class New_Java_Class {
                 break;
         }
 
-        /**-------------------------------------------------------------------**/
+        /*-------------------------------------------------------------------*/
         int i = 10;
         while (i < 15) {
             System.out.println(i);
             i++;
         }
 
-        /**-------------------------------------------------------------------**/
+        /*-------------------------------------------------------------------*/
 
         int j = 10;
         do {
