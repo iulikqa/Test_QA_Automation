@@ -1,4 +1,4 @@
-package Homework;
+package Homework_Vertex;
 
 import java.util.Scanner;
 

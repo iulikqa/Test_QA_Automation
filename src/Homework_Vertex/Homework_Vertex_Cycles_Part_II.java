@@ -1,4 +1,4 @@
-package Homework;
+package Homework_Vertex;
 
 public class Homework_Vertex_Cycles_Part_II {
     public static void main(String[] args) {
