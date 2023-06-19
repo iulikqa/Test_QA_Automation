@@ -2,7 +2,7 @@ package Homework_Vertex;
 
 import java.util.Scanner;
 
-public class Homework_Vertex_Cycles {
+public class CyclesPart_I {
     public static void main(String[] args) {
         //Задача №1
         //Необходимо вывести на экран числа от 1 до 5. На экране должно быть: 1 2 3 4 5
@@ -36,5 +36,7 @@ public class Homework_Vertex_Cycles {
     }
 
 }
+
+
 
 

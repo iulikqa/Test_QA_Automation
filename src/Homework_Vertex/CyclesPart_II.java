@@ -1,6 +1,6 @@
 package Homework_Vertex;
 
-public class Homework_Vertex_Cycles_Part_II {
+public class CyclesPart_II {
     public static void main(String[] args) {
         //Задача №1
         //Необходимо, чтоб программа выводила на экран вот такую последовательность:
